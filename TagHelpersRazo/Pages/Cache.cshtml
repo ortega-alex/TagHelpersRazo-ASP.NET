@@ -1,0 +1,34 @@
+﻿@page
+@model TagHelpersRazo.Pages.CacheModel
+@{
+    ViewData["Title"] = "Cache";
+}
+
+<h2>Cache</h2>
+
+<span>Sin cache: @DateTime.Now</span>
+<br />
+<cache expirate-after="@TimeSpan.FromDays(2)">
+    Con cache @DateTime.Now
+</cache>
+
+<!--
+    Atributos;
+
+    Expira en un fecha en espeficica:
+        expires-on="new DateTime(2025,1,29,17,02,0)"
+
+     Expira luego de habar transcurrido una cantidad de tiempo indicada
+        expires-adter="TimeSpan.FromMinutes(2)"
+
+    Expira si no se ha accedido al recurso luego de una cantidad de tiempo determinado;
+        expires-sliding="TimeSpan.FromMinutes(2)"
+
+    Varia el cache segub valor cabecera de la peticion Http
+        vary-by-header="User-Agent"
+
+    Varia el caché Según el usuairo
+        vary-by-user: true
+
+    .. Entre otros
+-->
