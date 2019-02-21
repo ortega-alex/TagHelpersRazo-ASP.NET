@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagHelpersRazo", "TagHelpersRazo\TagHelpersRazo.csproj", "{8301521A-684A-4E41-93AF-C9B5123BDE1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8301521A-684A-4E41-93AF-C9B5123BDE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8301521A-684A-4E41-93AF-C9B5123BDE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8301521A-684A-4E41-93AF-C9B5123BDE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8301521A-684A-4E41-93AF-C9B5123BDE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {051D0724-F866-453C-9074-A4A3387B7919}
+	EndGlobalSection
+EndGlobal
